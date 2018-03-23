@@ -3,11 +3,11 @@ pragma solidity ^0.4.2;
 contract Election {
   // Model a candidate
   struct Candidate {
-    unit id;
+    uint id;
     string name;
-    unit voteCount;
+    uint voteCount;
   }
-  
+
   // Store candidates
   // Fetch candidate
   // Store Candidates Counts
